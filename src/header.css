@@ -1,0 +1,58 @@
+header{
+	
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 80px 20px 80px;
+	align-items: center;
+    color: hsl(84, 40%, 49%);
+	animation: 1s fadein 0.5s forwards;
+	font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+	
+}
+	
+
+	
+	
+	
+
+.top{
+	font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+@keyframes fadein {
+	100%{
+		opacity: 3;
+
+
+		
+	}
+}
+
+header nav{
+	display: flex;
+	margin-right: -15px;
+
+
+	
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+
+
+.forul{
+	display: flex;
+	list-style: none;
+	box-sizing: border-box;
+	
+}

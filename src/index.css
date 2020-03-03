@@ -1,5 +1,53 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+}
+
+html{
+	font: normal 16px sans-serif;
+	color: #555;
+}
+
+nav{
+	list-style: none;
+}
+body{
+	background-color: #fff;
+	 font-family: 'Open Sans', sans-serif;
+ font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	opacity: 0.5;
+	
+	color: hsl(84, 40%, 49%);
+	font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+
+
+
+
+
+  border: none;
+  padding: 8px 16px;
+  
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+	
+
+}
+
+a:hover{
+	opacity: 2;
+	background-color: hsl(84, 40%, 49%);
+	color: white;
 }
